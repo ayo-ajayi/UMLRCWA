@@ -14,6 +14,16 @@ https://faculty.uml.edu/vpodolskiy/codes/
 ## Citation
 Podolskiy, V., and the Multiscale Electromagnetics Group, *RCWA Codes*, University of Massachusetts Lowell, version v0.2.2.
 
+## References
+1. M. G. Moharam and T. K. Gaylord,  
+   “Rigorous coupled-wave analysis of planar-grating diffraction,”  
+   *Journal of the Optical Society of America*, **71**(7), 811–818 (1981).
+
+2. M. G. Moharam, E. B. Grann, D. A. Pommet, and T. K. Gaylord,  
+   “Formulation for stable and efficient implementation of the rigorous coupled-wave analysis of binary gratings,”  
+   *Journal of the Optical Society of America A*, **12**(5), 1068–1076 (1995).
+
+
 ## License
 This repository is distributed under the terms of the original RCWA license.  
 See the [LICENSE](LICENSE) file in this repository for details.
