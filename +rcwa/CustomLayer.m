@@ -1,4 +1,3 @@
-% import rcwa.*
 % Copyright (c) 2014-2017 by University of Massachusetts Lowell
 function [layer] = CustomLayer(A, sys)
     % Allows any permittivity pattern
