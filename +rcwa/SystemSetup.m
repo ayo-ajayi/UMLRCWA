@@ -43,7 +43,7 @@ function [sysStruct] = SystemSetup(angles, omg, Lam, maxM)
     kx0 = omg * sind(theta) * cosd(phi);
     kxm = kx0 + q0(1) * (mod((1:nTot) - 1, NM(1)) - maxM(1))';
 
-    if length(maxM) == 2;
+    if length(maxM) == 2
         ky0 = omg * sind(theta) * sind(phi);
         kym = ky0 + q0(2) * (ceil(((1:nTot)) / NM(1)) - maxM(2) - 1)';
     else

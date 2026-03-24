@@ -112,7 +112,7 @@ function [t, r, Cpl, Cmin] = ET(T, kz, d, i0)
     Ni = size(i0, 2);
 
     if isempty(kz)
-        nKz = length(i0(1, :));
+        nKz = size(i0, 1);
         kz = 0;
         d = 0;
     else
